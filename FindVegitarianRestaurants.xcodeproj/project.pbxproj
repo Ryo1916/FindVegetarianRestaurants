@@ -12,9 +12,11 @@
 		2A87408A228B125900C4F49D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A874088228B125900C4F49D /* Main.storyboard */; };
 		2A87408C228B125C00C4F49D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A87408B228B125C00C4F49D /* Assets.xcassets */; };
 		2A87408F228B125C00C4F49D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A87408D228B125C00C4F49D /* LaunchScreen.storyboard */; };
+		32CC8A7AB5FFFA2C1CF10302 /* Pods_FindVegitarianRestaurants.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7D2DA72CC5647BC7E29DE7C /* Pods_FindVegitarianRestaurants.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		248D08775E626923063994D1 /* Pods-FindVegitarianRestaurants.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindVegitarianRestaurants.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FindVegitarianRestaurants/Pods-FindVegitarianRestaurants.debug.xcconfig"; sourceTree = "<group>"; };
 		2A874081228B125900C4F49D /* FindVegitarianRestaurants.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindVegitarianRestaurants.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A874084228B125900C4F49D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A874086228B125900C4F49D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +24,8 @@
 		2A87408B228B125C00C4F49D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A87408E228B125C00C4F49D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A874090228B125C00C4F49D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		902551F18EE02D8EF5E3886B /* Pods-FindVegitarianRestaurants.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindVegitarianRestaurants.release.xcconfig"; path = "Pods/Target Support Files/Pods-FindVegitarianRestaurants/Pods-FindVegitarianRestaurants.release.xcconfig"; sourceTree = "<group>"; };
+		A7D2DA72CC5647BC7E29DE7C /* Pods_FindVegitarianRestaurants.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindVegitarianRestaurants.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32CC8A7AB5FFFA2C1CF10302 /* Pods_FindVegitarianRestaurants.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,8 @@
 			children = (
 				2A874083228B125900C4F49D /* FindVegitarianRestaurants */,
 				2A874082228B125900C4F49D /* Products */,
+				D31AA78A9FACFBFC3BCDE3D8 /* Pods */,
+				6D42C5389F42FE53E20EF983 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +71,23 @@
 			path = FindVegitarianRestaurants;
 			sourceTree = "<group>";
 		};
+		6D42C5389F42FE53E20EF983 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7D2DA72CC5647BC7E29DE7C /* Pods_FindVegitarianRestaurants.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D31AA78A9FACFBFC3BCDE3D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				248D08775E626923063994D1 /* Pods-FindVegitarianRestaurants.debug.xcconfig */,
+				902551F18EE02D8EF5E3886B /* Pods-FindVegitarianRestaurants.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A874093228B125C00C4F49D /* Build configuration list for PBXNativeTarget "FindVegitarianRestaurants" */;
 			buildPhases = (
+				C385BC4BB00533104C0EC32E /* [CP] Check Pods Manifest.lock */,
 				2A87407D228B125900C4F49D /* Sources */,
 				2A87407E228B125900C4F49D /* Frameworks */,
 				2A87407F228B125900C4F49D /* Resources */,
+				4D9D0D385AF6E51003C36383 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,6 +155,59 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D9D0D385AF6E51003C36383 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FindVegitarianRestaurants/Pods-FindVegitarianRestaurants-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Material/Material.framework",
+				"${BUILT_PRODUCTS_DIR}/Motion/Motion.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Material.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Motion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindVegitarianRestaurants/Pods-FindVegitarianRestaurants-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C385BC4BB00533104C0EC32E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FindVegitarianRestaurants-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2A87407D228B125900C4F49D /* Sources */ = {
@@ -280,6 +359,7 @@
 		};
 		2A874094228B125C00C4F49D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 248D08775E626923063994D1 /* Pods-FindVegitarianRestaurants.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +378,7 @@
 		};
 		2A874095228B125C00C4F49D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 902551F18EE02D8EF5E3886B /* Pods-FindVegitarianRestaurants.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
