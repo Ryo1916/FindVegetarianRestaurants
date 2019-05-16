@@ -12,20 +12,20 @@
 		2A87408A228B125900C4F49D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A874088228B125900C4F49D /* Main.storyboard */; };
 		2A87408C228B125C00C4F49D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A87408B228B125C00C4F49D /* Assets.xcassets */; };
 		2A87408F228B125C00C4F49D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A87408D228B125C00C4F49D /* LaunchScreen.storyboard */; };
-		32CC8A7AB5FFFA2C1CF10302 /* Pods_FindVegitarianRestaurants.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7D2DA72CC5647BC7E29DE7C /* Pods_FindVegitarianRestaurants.framework */; };
+		32CC8A7AB5FFFA2C1CF10302 /* Pods_FindVegetarianRestaurants.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7D2DA72CC5647BC7E29DE7C /* Pods_FindVegetarianRestaurants.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		248D08775E626923063994D1 /* Pods-FindVegitarianRestaurants.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindVegitarianRestaurants.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FindVegitarianRestaurants/Pods-FindVegitarianRestaurants.debug.xcconfig"; sourceTree = "<group>"; };
-		2A874081228B125900C4F49D /* FindVegitarianRestaurants.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindVegitarianRestaurants.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		248D08775E626923063994D1 /* Pods-FindVegetarianRestaurants.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindVegetarianRestaurants.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FindVegetarianRestaurants/Pods-FindVegetarianRestaurants.debug.xcconfig"; sourceTree = "<group>"; };
+		2A874081228B125900C4F49D /* FindVegetarianRestaurants.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindVegetarianRestaurants.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A874084228B125900C4F49D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A874086228B125900C4F49D /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		2A874089228B125900C4F49D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2A87408B228B125C00C4F49D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A87408E228B125C00C4F49D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A874090228B125C00C4F49D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		902551F18EE02D8EF5E3886B /* Pods-FindVegitarianRestaurants.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindVegitarianRestaurants.release.xcconfig"; path = "Pods/Target Support Files/Pods-FindVegitarianRestaurants/Pods-FindVegitarianRestaurants.release.xcconfig"; sourceTree = "<group>"; };
-		A7D2DA72CC5647BC7E29DE7C /* Pods_FindVegitarianRestaurants.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindVegitarianRestaurants.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		902551F18EE02D8EF5E3886B /* Pods-FindVegetarianRestaurants.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindVegetarianRestaurants.release.xcconfig"; path = "Pods/Target Support Files/Pods-FindVegetarianRestaurants/Pods-FindVegetarianRestaurants.release.xcconfig"; sourceTree = "<group>"; };
+		A7D2DA72CC5647BC7E29DE7C /* Pods_FindVegetarianRestaurants.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindVegetarianRestaurants.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,7 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32CC8A7AB5FFFA2C1CF10302 /* Pods_FindVegitarianRestaurants.framework in Frameworks */,
+				32CC8A7AB5FFFA2C1CF10302 /* Pods_FindVegetarianRestaurants.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,7 +43,7 @@
 		2A874078228B125900C4F49D = {
 			isa = PBXGroup;
 			children = (
-				2A874083228B125900C4F49D /* FindVegitarianRestaurants */,
+				2A874083228B125900C4F49D /* FindVegetarianRestaurants */,
 				2A874082228B125900C4F49D /* Products */,
 				D31AA78A9FACFBFC3BCDE3D8 /* Pods */,
 				6D42C5389F42FE53E20EF983 /* Frameworks */,
@@ -53,12 +53,12 @@
 		2A874082228B125900C4F49D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2A874081228B125900C4F49D /* FindVegitarianRestaurants.app */,
+				2A874081228B125900C4F49D /* FindVegetarianRestaurants.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2A874083228B125900C4F49D /* FindVegitarianRestaurants */ = {
+		2A874083228B125900C4F49D /* FindVegetarianRestaurants */ = {
 			isa = PBXGroup;
 			children = (
 				2A874084228B125900C4F49D /* AppDelegate.swift */,
@@ -68,13 +68,13 @@
 				2A87408D228B125C00C4F49D /* LaunchScreen.storyboard */,
 				2A874090228B125C00C4F49D /* Info.plist */,
 			);
-			path = FindVegitarianRestaurants;
+			path = FindVegetarianRestaurants;
 			sourceTree = "<group>";
 		};
 		6D42C5389F42FE53E20EF983 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A7D2DA72CC5647BC7E29DE7C /* Pods_FindVegitarianRestaurants.framework */,
+				A7D2DA72CC5647BC7E29DE7C /* Pods_FindVegetarianRestaurants.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -82,8 +82,8 @@
 		D31AA78A9FACFBFC3BCDE3D8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				248D08775E626923063994D1 /* Pods-FindVegitarianRestaurants.debug.xcconfig */,
-				902551F18EE02D8EF5E3886B /* Pods-FindVegitarianRestaurants.release.xcconfig */,
+				248D08775E626923063994D1 /* Pods-FindVegetarianRestaurants.debug.xcconfig */,
+				902551F18EE02D8EF5E3886B /* Pods-FindVegetarianRestaurants.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -91,9 +91,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2A874080228B125900C4F49D /* FindVegitarianRestaurants */ = {
+		2A874080228B125900C4F49D /* FindVegetarianRestaurants */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2A874093228B125C00C4F49D /* Build configuration list for PBXNativeTarget "FindVegitarianRestaurants" */;
+			buildConfigurationList = 2A874093228B125C00C4F49D /* Build configuration list for PBXNativeTarget "FindVegetarianRestaurants" */;
 			buildPhases = (
 				C385BC4BB00533104C0EC32E /* [CP] Check Pods Manifest.lock */,
 				2A87407D228B125900C4F49D /* Sources */,
@@ -105,9 +105,9 @@
 			);
 			dependencies = (
 			);
-			name = FindVegitarianRestaurants;
-			productName = FindVegitarianRestaurants;
-			productReference = 2A874081228B125900C4F49D /* FindVegitarianRestaurants.app */;
+			name = FindVegetarianRestaurants;
+			productName = FindVegetarianRestaurants;
+			productReference = 2A874081228B125900C4F49D /* FindVegetarianRestaurants.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -125,7 +125,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2A87407C228B125900C4F49D /* Build configuration list for PBXProject "FindVegitarianRestaurants" */;
+			buildConfigurationList = 2A87407C228B125900C4F49D /* Build configuration list for PBXProject "FindVegetarianRestaurants" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -138,7 +138,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2A874080228B125900C4F49D /* FindVegitarianRestaurants */,
+				2A874080228B125900C4F49D /* FindVegetarianRestaurants */,
 			);
 		};
 /* End PBXProject section */
@@ -165,7 +165,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-FindVegitarianRestaurants/Pods-FindVegitarianRestaurants-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-FindVegetarianRestaurants/Pods-FindVegetarianRestaurants-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Material/Material.framework",
 				"${BUILT_PRODUCTS_DIR}/Motion/Motion.framework",
@@ -182,7 +182,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindVegitarianRestaurants/Pods-FindVegitarianRestaurants-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindVegetarianRestaurants/Pods-FindVegetarianRestaurants-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C385BC4BB00533104C0EC32E /* [CP] Check Pods Manifest.lock */ = {
@@ -200,7 +200,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-FindVegitarianRestaurants-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-FindVegetarianRestaurants-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -359,17 +359,17 @@
 		};
 		2A874094228B125C00C4F49D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 248D08775E626923063994D1 /* Pods-FindVegitarianRestaurants.debug.xcconfig */;
+			baseConfigurationReference = 248D08775E626923063994D1 /* Pods-FindVegetarianRestaurants.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 82WB82PL2C;
-				INFOPLIST_FILE = FindVegitarianRestaurants/Info.plist;
+				INFOPLIST_FILE = FindVegetarianRestaurants/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ryo.fujimoto.FindVegitarianRestaurants;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryo.fujimoto.FindVegetarianRestaurants;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -378,17 +378,17 @@
 		};
 		2A874095228B125C00C4F49D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 902551F18EE02D8EF5E3886B /* Pods-FindVegitarianRestaurants.release.xcconfig */;
+			baseConfigurationReference = 902551F18EE02D8EF5E3886B /* Pods-FindVegetarianRestaurants.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 82WB82PL2C;
-				INFOPLIST_FILE = FindVegitarianRestaurants/Info.plist;
+				INFOPLIST_FILE = FindVegetarianRestaurants/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ryo.fujimoto.FindVegitarianRestaurants;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryo.fujimoto.FindVegetarianRestaurants;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -398,7 +398,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2A87407C228B125900C4F49D /* Build configuration list for PBXProject "FindVegitarianRestaurants" */ = {
+		2A87407C228B125900C4F49D /* Build configuration list for PBXProject "FindVegetarianRestaurants" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2A874091228B125C00C4F49D /* Debug */,
@@ -407,7 +407,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2A874093228B125C00C4F49D /* Build configuration list for PBXNativeTarget "FindVegitarianRestaurants" */ = {
+		2A874093228B125C00C4F49D /* Build configuration list for PBXNativeTarget "FindVegetarianRestaurants" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2A874094228B125C00C4F49D /* Debug */,

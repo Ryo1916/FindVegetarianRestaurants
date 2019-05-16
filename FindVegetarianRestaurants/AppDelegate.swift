@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  FindVegitarianRestaurants
+//  FindVegetarianRestaurants
 //
 //  Created by Ryo Fujimoto on 2019/05/15.
 //  Copyright © 2019 Ryo Fujimoto. All rights reserved.

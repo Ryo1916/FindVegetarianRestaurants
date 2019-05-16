@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_FindVegitarianRestaurantsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_FindVegitarianRestaurantsVersionString[];
+FOUNDATION_EXPORT double Pods_FindVegetarianRestaurantsVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_FindVegetarianRestaurantsVersionString[];
 
