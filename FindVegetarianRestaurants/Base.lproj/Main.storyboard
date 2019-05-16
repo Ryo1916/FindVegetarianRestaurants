@@ -36,7 +36,7 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="searchByTextPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eIY-tG-8aM"/>
-                                    <segue destination="KnL-lt-qfs" kind="show" identifier="searchByText" id="3Xi-s8-bI9"/>
+                                    <segue destination="KfN-4K-cW7" kind="presentation" identifier="searchByText" id="HMh-eX-dkG"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bYg-My-Oiw" customClass="RaisedButton" customModule="Material">
@@ -53,7 +53,7 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="searchByLocationPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="09e-NT-glZ"/>
-                                    <segue destination="KnL-lt-qfs" kind="show" identifier="searchByLocation" id="RrV-is-Cmh"/>
+                                    <segue destination="KfN-4K-cW7" kind="presentation" identifier="searchByLocation" id="etz-To-1hM"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ePg-oQ-kKB" customClass="TextField">
@@ -86,10 +86,10 @@
             </objects>
             <point key="canvasLocation" x="136.23188405797103" y="133.25892857142856"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Results Table View Controller-->
         <scene sceneID="YUq-zh-GgW">
             <objects>
-                <tableViewController id="k23-Oo-KnC" sceneMemberID="viewController">
+                <tableViewController id="k23-Oo-KnC" customClass="ResultsTableViewController" customModule="FindVegetarianRestaurants" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="p0a-na-v2r">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -109,35 +109,41 @@
                             <outlet property="delegate" destination="k23-Oo-KnC" id="RUC-0K-5GT"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="saO-FL-xa4"/>
+                    <navigationItem key="navigationItem" id="saO-FL-xa4">
+                        <barButtonItem key="leftBarButtonItem" title="Back" id="qhG-Vm-us3">
+                            <connections>
+                                <action selector="backButtonPressed:" destination="k23-Oo-KnC" id="dMX-rw-RyW"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MAy-cB-jn6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1976.8115942028987" y="133.92857142857142"/>
+            <point key="canvasLocation" x="1884.057971014493" y="132.58928571428572"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="JNH-Tf-Mgh">
+        <scene sceneID="rgD-KV-vWB">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="KnL-lt-qfs" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="KfN-4K-cW7" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="5JX-9o-08q">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="eLt-jD-Mnn">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="k23-Oo-KnC" kind="relationship" relationship="rootViewController" id="hMO-Es-fok"/>
+                        <segue destination="k23-Oo-KnC" kind="relationship" relationship="rootViewController" id="Lva-mZ-8il"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="lgn-DK-WGG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="seb-Ys-a3E" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1066.6666666666667" y="133.92857142857142"/>
+            <point key="canvasLocation" x="973.91304347826099" y="132.58928571428572"/>
         </scene>
     </scenes>
     <resources>
-        <image name="vegetables" width="1877" height="2690"/>
+        <image name="vegetables" width="1078" height="1414"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="RrV-is-Cmh"/>
+        <segue reference="HMh-eX-dkG"/>
     </inferredMetricsTieBreakers>
 </document>
