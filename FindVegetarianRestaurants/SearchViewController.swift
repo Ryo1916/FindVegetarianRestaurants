@@ -12,7 +12,7 @@ import Material
 class SearchViewController: UIViewController {
 
     @IBOutlet weak var appName: UILabel!
-    @IBOutlet weak var serachField: ErrorTextField!
+    @IBOutlet weak var searchField: ErrorTextField!
     @IBAction func searchByTextPressed(_ sender: UIButton) {
     }
     @IBAction func searchByLocationPressed(_ sender: UIButton) {
@@ -22,7 +22,4 @@ class SearchViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
-
 }
-
