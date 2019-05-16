@@ -36,6 +36,7 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="searchByTextPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eIY-tG-8aM"/>
+                                    <segue destination="KnL-lt-qfs" kind="show" identifier="searchByText" id="3Xi-s8-bI9"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bYg-My-Oiw" customClass="RaisedButton" customModule="Material">
@@ -52,6 +53,7 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="searchByLocationPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="09e-NT-glZ"/>
+                                    <segue destination="KnL-lt-qfs" kind="show" identifier="searchByLocation" id="RrV-is-Cmh"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ePg-oQ-kKB" customClass="TextField">
@@ -135,4 +137,7 @@
     <resources>
         <image name="vegetables" width="1877" height="2690"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="RrV-is-Cmh"/>
+    </inferredMetricsTieBreakers>
 </document>
