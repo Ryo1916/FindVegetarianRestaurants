@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2A874085228B125900C4F49D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A874084228B125900C4F49D /* AppDelegate.swift */; };
-		2A874087228B125900C4F49D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A874086228B125900C4F49D /* ViewController.swift */; };
+		2A874087228B125900C4F49D /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A874086228B125900C4F49D /* SearchViewController.swift */; };
 		2A87408A228B125900C4F49D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A874088228B125900C4F49D /* Main.storyboard */; };
 		2A87408C228B125C00C4F49D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A87408B228B125C00C4F49D /* Assets.xcassets */; };
 		2A87408F228B125C00C4F49D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A87408D228B125C00C4F49D /* LaunchScreen.storyboard */; };
@@ -19,7 +19,7 @@
 		248D08775E626923063994D1 /* Pods-FindVegitarianRestaurants.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindVegitarianRestaurants.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FindVegitarianRestaurants/Pods-FindVegitarianRestaurants.debug.xcconfig"; sourceTree = "<group>"; };
 		2A874081228B125900C4F49D /* FindVegitarianRestaurants.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindVegitarianRestaurants.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A874084228B125900C4F49D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2A874086228B125900C4F49D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2A874086228B125900C4F49D /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		2A874089228B125900C4F49D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2A87408B228B125C00C4F49D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A87408E228B125C00C4F49D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				2A874084228B125900C4F49D /* AppDelegate.swift */,
-				2A874086228B125900C4F49D /* ViewController.swift */,
+				2A874086228B125900C4F49D /* SearchViewController.swift */,
 				2A874088228B125900C4F49D /* Main.storyboard */,
 				2A87408B228B125C00C4F49D /* Assets.xcassets */,
 				2A87408D228B125C00C4F49D /* LaunchScreen.storyboard */,
@@ -214,7 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A874087228B125900C4F49D /* ViewController.swift in Sources */,
+				2A874087228B125900C4F49D /* SearchViewController.swift in Sources */,
 				2A874085228B125900C4F49D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
