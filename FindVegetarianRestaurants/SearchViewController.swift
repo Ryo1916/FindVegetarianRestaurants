@@ -10,6 +10,7 @@ import UIKit
 import Material
 import Alamofire
 import SwiftyJSON
+import Keys
 
 class SearchViewController: UIViewController {
 
