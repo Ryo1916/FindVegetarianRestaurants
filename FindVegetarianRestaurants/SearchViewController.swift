@@ -8,6 +8,8 @@
 
 import UIKit
 import Material
+import Alamofire
+import SwiftyJSON
 
 class SearchViewController: UIViewController {
 
