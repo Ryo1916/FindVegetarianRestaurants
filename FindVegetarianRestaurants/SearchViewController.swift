@@ -13,6 +13,11 @@ import SwiftyJSON
 import Keys
 
 class SearchViewController: UIViewController {
+    
+    // constants
+    private let GURUNAVI_API = "https://api.gnavi.co.jp/ForeignRestSearchAPI/v3/"
+    private let API_KEY = FindVegetarianRestaurantsKeys().gurunaviAPIKey
+    
 
     @IBOutlet weak var appName: UILabel!
     @IBOutlet weak var searchField: ErrorTextField!
