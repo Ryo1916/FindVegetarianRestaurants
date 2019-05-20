@@ -6,4 +6,10 @@
 //  Copyright © 2019 Ryo Fujimoto. All rights reserved.
 //
 
-import Foundation
+class Restaurant {
+    var name: String?
+    var businessHour: String?
+    var categories: [String]?
+    var url: String?
+    var imageURL: String?
+}
