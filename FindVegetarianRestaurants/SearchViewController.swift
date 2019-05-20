@@ -39,8 +39,11 @@ class SearchViewController: UIViewController {
     
     func getWeatherDataByFreeWords(url: String, freeWords: String) {
         let paramsWithFreeWords: APIParams = ["keyid": API_KEY, "lang": "en", "freeword": freeWords, "english_speaking_staff": 0, "english_menu": 0, "vegetarian_menu_options": 1]
+        let semaphore = DispatchSemaphore(value: 0)
+        let queue = DispatchQueue.global(qos: .utility)
 
-        Alamofire.request(url, method: .get, parameters: paramsWithFreeWords).responseJSON { response in
+        Alamofire.request(url, method: .get, parameters: paramsWithFreeWords).responseJSON(queue: queue) {
+            response in
             if response.result.isSuccess {
                 print("Success! Got the weather data by free words.")
                 
@@ -51,6 +54,9 @@ class SearchViewController: UIViewController {
                 self.appName.text = "Connection Issues"
                 self.appName.textColor = .red
             }
+            semaphore.signal()
+        }
+        semaphore.wait()
         }
     }
 }
