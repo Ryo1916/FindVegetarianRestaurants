@@ -39,6 +39,7 @@ class SearchViewController: UIViewController {
     
     func getWeatherDataByFreeWords(url: String, freeWords: String) {
         let paramsWithFreeWords: APIParams = ["keyid": API_KEY, "lang": "en", "freeword": freeWords, "english_speaking_staff": 0, "english_menu": 0, "vegetarian_menu_options": 1]
+        var restaurants = [Restaurant]()
         let semaphore = DispatchSemaphore(value: 0)
         let queue = DispatchQueue.global(qos: .utility)
 
@@ -49,6 +50,16 @@ class SearchViewController: UIViewController {
                 
                 let responseJSON: JSON = JSON(response.result.value!)
                 print(responseJSON)
+
+                responseJSON["rest"].forEach { (_, json) in
+                    let restaurant: Restaurant = Restaurant()
+                    restaurant.name = json["name"]["name"].stringValue
+                    restaurant.businessHour = json["business_hour"].stringValue
+                    restaurant.categories = json["categories"]["category_name_s"].arrayValue.map {$0.stringValue}
+                    restaurant.url = json["url"].stringValue
+                    restaurant.imageURL = json["image_url"]["thumbnail"].stringValue
+                    restaurants.append(restaurant)
+                }
             } else {
                 print("Error \(String(describing: response.result.error))")
                 self.appName.text = "Connection Issues"
@@ -57,6 +68,13 @@ class SearchViewController: UIViewController {
             semaphore.signal()
         }
         semaphore.wait()
+
+        restaurants.forEach { restaurant in
+            print(restaurant.name!)
+            print(restaurant.businessHour!)
+            print(restaurant.categories!)
+            print(restaurant.url!)
+            print(restaurant.imageURL!)
         }
     }
 }
