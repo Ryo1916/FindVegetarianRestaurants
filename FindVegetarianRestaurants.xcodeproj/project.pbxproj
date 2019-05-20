@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2A3CE707228D966E006DE482 /* ResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3CE706228D966E006DE482 /* ResultsTableViewController.swift */; };
+		2A3CE70D228EB171006DE482 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3CE70C228EB171006DE482 /* Restaurant.swift */; };
 		2A874085228B125900C4F49D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A874084228B125900C4F49D /* AppDelegate.swift */; };
 		2A874087228B125900C4F49D /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A874086228B125900C4F49D /* SearchViewController.swift */; };
 		2A87408A228B125900C4F49D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A874088228B125900C4F49D /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* Begin PBXFileReference section */
 		248D08775E626923063994D1 /* Pods-FindVegetarianRestaurants.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindVegetarianRestaurants.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FindVegetarianRestaurants/Pods-FindVegetarianRestaurants.debug.xcconfig"; sourceTree = "<group>"; };
 		2A3CE706228D966E006DE482 /* ResultsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsTableViewController.swift; sourceTree = "<group>"; };
+		2A3CE70C228EB171006DE482 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		2A874081228B125900C4F49D /* FindVegetarianRestaurants.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindVegetarianRestaurants.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A874084228B125900C4F49D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A874086228B125900C4F49D /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				2A874084228B125900C4F49D /* AppDelegate.swift */,
 				2A874086228B125900C4F49D /* SearchViewController.swift */,
 				2A3CE706228D966E006DE482 /* ResultsTableViewController.swift */,
+				2A3CE70C228EB171006DE482 /* Restaurant.swift */,
 				2A874088228B125900C4F49D /* Main.storyboard */,
 				2A87408B228B125C00C4F49D /* Assets.xcassets */,
 				2A87408D228B125C00C4F49D /* LaunchScreen.storyboard */,
@@ -219,6 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A3CE70D228EB171006DE482 /* Restaurant.swift in Sources */,
 				2A3CE707228D966E006DE482 /* ResultsTableViewController.swift in Sources */,
 				2A874087228B125900C4F49D /* SearchViewController.swift in Sources */,
 				2A874085228B125900C4F49D /* AppDelegate.swift in Sources */,
