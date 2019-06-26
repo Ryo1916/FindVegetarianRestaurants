@@ -10,4 +10,11 @@ target 'FindVegetarianRestaurants' do
   pod 'SwiftyJSON', '4.2.0'
   pod 'Material', '2.16.4'
 
+  plugin 'cocoapods-keys', {
+    :project => 'FindVegetarianRestaurants',
+    :keys => [
+      'GurunaviAPIKey'
+    ]
+  }
+
 end
