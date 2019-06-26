@@ -10,6 +10,11 @@ import UIKit
 
 class ResultsTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var restaurantImageView: UIImageView!
+    @IBOutlet weak var restaurantNameLabel: UILabel!
+    @IBOutlet weak var businessHourLabel: UILabel!
+    @IBOutlet weak var categoriesLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
